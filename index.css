@@ -1,0 +1,234 @@
+/* VARIABLES */
+:root {
+    --color-primario: #FFCC00;
+    --color-secundario: #218838;
+    --color-texto: #6c757d;
+    --color-fondo: #ffffff;
+    --color-blanco: #ffffff;
+    --color-boton-hover: #ffdf61;
+    --color-text-boton: #ffffff;
+    --transicion: 0.5s ease;
+}
+
+/* ESTILO GENERAL */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--color-fondo);
+}
+
+h1, h2, h5 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: var(--color-primario);
+}
+
+h2 {
+    font-size: 2rem;
+    color: var(--color-secundario);
+}
+
+p {
+    color: var(--color-texto);
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* BOTONES */
+.btn {
+    background-color: var(--color-primario);
+    color: var(--color-text-boton);
+    padding: 10px 20px;
+    border: 2px solid var(--color-primario);
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: var(--transicion);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: var(--color-boton-hover);
+    border-color: var(--color-boton-hover);
+    padding: 10px 30px;
+}
+
+.btn span {
+    padding-left: 10px;
+}
+
+/* ANIMACIÓN Y ESTILO PARA LOS PRODUCTOS */
+.card {
+    position: relative;
+    background-color: var(--color-blanco);
+    transition: transform var(--transicion), box-shadow var(--transicion);
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    transition: transform var(--transicion);
+}
+
+.card img:hover {
+    transform: scale(1.1);
+}
+
+.card-footer button {
+    background-color: var(--color-secundario);
+    color: var(--color-blanco);
+    padding: 10px 20px;
+    transition: var(--transicion);
+    border: none;
+    cursor: pointer;
+}
+
+.card-footer button:hover {
+    background-color: var(--color-boton-hover);
+}
+
+/* MEJORAS PARA LOS ICONOS SOCIALES */
+.social-media a {
+    display: inline-block;
+    font-size: 20px;
+    color: var(--color-texto);
+    background-color: var(--color-secundario);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    transition: var(--transicion);
+    margin: 0 10px;
+}
+
+.social-media a:hover {
+    background-color: transparent;
+    color: var(--color-secundario);
+    transform: scale(1.2);
+}
+
+/* MEJORAS EN LAS TARJETAS DE LOS PRODUCTOS */
+.card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: var(--color-secundario);
+}
+
+.card-subtitle {
+    font-size: 1rem;
+    color: var(--color-texto);
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: var(--color-texto);
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+/* ESTILO PARA EL FOOTER Y CONTACTO */
+footer {
+    background-color: var(--color-secundario);
+    padding: 20px;
+    color: var(--color-blanco);
+    text-align: center;
+}
+
+footer .sociales-metodo i {
+    margin-right: 10px;
+}
+
+footer .sociales-metodo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* BOTÓN "IR ARRIBA" */
+#btn-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--color-secundario);
+    color: var(--color-blanco);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: var(--transicion);
+    z-index: 999;
+}
+
+#btn-top:hover {
+    background-color: var(--color-primario);
+}
+
+/* Ajustes para el banner */
+.div-container {
+    max-width: 100%;
+    max-height: 500px; /* Establece la altura máxima del banner */
+    overflow: hidden;
+}
+
+.banner-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;  /* Recorta la imagen para llenar el contenedor sin distorsionar la imagen */
+    transition: transform 0.5s ease-in-out;
+}
+
+.banner-img:hover {
+    transform: scale(1.05);  /* Añade un ligero zoom al hacer hover */
+}
+
+/* Estilos del carousel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%); /* Cambia el color de las flechas de navegación */
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente detrás del texto */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Estilos para los iconos sociales */
+.social-media a {
+    color: var(--color-texto) !important; /* Asegura que el color del texto sea oscuro */
+    background-color: var(--color-primario); /* Fondo amarillo de los botones */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.social-media a:hover {
+    background-color: var(--color-boton-hover); /* Fondo en hover más claro */
+    color: var(--color-blanco) !important; /* El color del icono cambia a blanco al pasar el mouse */
+    transform: scale(1.2); /* Efecto de zoom al hacer hover */
+}
