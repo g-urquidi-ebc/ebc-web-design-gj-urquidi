@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "nombre": "iPhone 15 Plus",
+    "precio": 21000.00,
+    "urlFoto": "./img/iphone-15-plus.jpg",
+    "descripcion": "Disfruta de una experiencia móvil premium con el iPhone 15 Plus, que cuenta con una pantalla amplia, rendimiento superior y una cámara avanzada para capturar momentos inolvidables."
+  },
+  {
+    "id": 2,
+    "nombre": "AirPods",
+    "precio": 2599.00,
+    "urlFoto": "./img/airpods-EBC.jpg",
+    "descripcion": "Disfruta de una experiencia de audio inalámbrica sin igual con los AirPods. Ofrecen sonido envolvente, conexión automática y control por voz con Siri para una comodidad total en tu día a día."
+  },
+  {
+    "id": 3,
+    "nombre": "Play Station 5",
+    "precio": 12500.00,
+    "urlFoto": "./img/PS5-EBC.jpg",
+    "descripcion": "La consola de próxima generación que redefine el gaming. La PS5 ofrece gráficos 4K, velocidad increíble y una biblioteca de juegos exclusivos."
+  },
+  {
+    "id": 4,
+    "nombre": "MacBook Air",
+    "precio": 12999.00,
+    "urlFoto": "./img/macbook-air-ebc.jpg",
+    "descripcion": "Ligero, rápido y con una batería de larga duración, el MacBook Air es perfecto para quienes necesitan productividad en movimiento con el potente chip M1/M2."
+  },
+  {
+    "id": 5,
+    "nombre": "Xbox Series X",
+    "precio": 9999.00,
+    "urlFoto": "./img/xbox-series-x-ebc.jpg",
+    "descripcion": "Experimenta la consola más potente de Microsoft con gráficos 4K, juegos fluidos y una capacidad de almacenamiento expansiva para tus títulos favoritos."
+  },
+  {
+    "id": 6,
+    "nombre": "Apple TV",
+    "precio": 4999.00,
+    "urlFoto": "./img/apple-tv-EBC.jpg",
+    "descripcion": "Transforma tu entretenimiento en casa con Apple TV, que ofrece acceso a tus series y películas favoritas con la mejor calidad de imagen y sonido."
+  },
+  {
+    "id": 7,
+    "nombre": "iPhone 15 Pro",
+    "precio": 23999.00,
+    "urlFoto": "./img/iphone-15-pro-ebc.jpg",
+    "descripcion": "Lleva tu productividad y creatividad al siguiente nivel con el iPhone 15 Pro, que ofrece potencia incomparable, fotografía profesional y diseño elegante."
+  },
+  {
+    "id": 8,
+    "nombre": "Apple Watch",
+    "precio": 9599.00,
+    "urlFoto": "./img/apple-watch-ebc.jpg",
+    "descripcion": "Tu compañero ideal para la salud y el fitness. El Apple Watch monitorea tu actividad diaria, salud cardíaca y te mantiene conectado donde quiera que vayas."
+  },
+  {
+    "id": 9,
+    "nombre": "iPad Air",
+    "precio": 18999.00,
+    "urlFoto": "./img/ipad-air-ebc.jpg",
+    "descripcion": "Potencia de tablet con la versatilidad de un ordenador portátil. El iPad Air ofrece rendimiento veloz, pantalla nítida y compatibilidad con el Apple Pencil."
+  }
+]
+  
